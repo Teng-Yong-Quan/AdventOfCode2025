@@ -1,4 +1,4 @@
-input_data = open('advent-of-code-2025/Day2/advent_of_code_2.txt','r').read().strip()
+input_data = open('/home/advent-of-code-2025/Day2/advent_of_code_2.txt','r').read().strip()
 input_data_lst = [part.split("-") for part in input_data.split(",")]
 TotalInvalid = 0
 for NestedRangeList in input_data_lst:
