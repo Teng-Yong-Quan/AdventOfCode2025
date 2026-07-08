@@ -1,6 +1,5 @@
 input_data = open('/home/advent-of-code-2025/Day3/advent_of_code_3.txt','r')
 input_data_lst = [x.replace("\n","") for x in input_data]
-
 LargestJoltage = 0
 for bank in input_data_lst:
     NumberIndexDict = {}
