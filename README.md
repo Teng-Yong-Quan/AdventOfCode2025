@@ -1,4 +1,4 @@
-# AdventOfCode2025
+# Advent Of Code 2025
 
 Here are the answers to the Advent of Code 2025 questions.
 
