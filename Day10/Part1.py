@@ -63,4 +63,5 @@ for index in range(len(machines)):
             PassPermutationsIndex.append(perm)
     MinPress = min([sum(all_permutations[x]) for x in PassPermutationsIndex])     
     LeastNumberButtons.append(MinPress)
-print(sum(LeastNumberButtons))  
+print(sum(LeastNumberButtons))
+input_data.close()
