@@ -19,3 +19,4 @@ for NestedRangeList in input_data_lst:
                 break
         Current = str(int(Current) + 1)
 print(TotalInvalid)
+input_data.close()
