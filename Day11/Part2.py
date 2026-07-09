@@ -37,3 +37,4 @@ input_data = open('/home/advent-of-code-2025/Day11/advent_of_code_11.txt','r')
 input_data_lst = [x.replace("\n","").split(':') for x in input_data]
 input_dict = {key:value.strip().split(' ') for key,value in input_data_lst}
 print(dfs_stack(input_dict,'svr','fft',1)*dfs_stack(input_dict,'fft','dac',1)*dfs_stack(input_dict,'dac','out',1))
+input_data.close()
