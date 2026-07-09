@@ -26,3 +26,4 @@ while CurrentIndex >= 0:
         AllDigits = []
     CurrentIndex -= 1
 print(total)
+input_data.close()

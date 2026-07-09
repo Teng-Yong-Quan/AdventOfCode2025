@@ -7,3 +7,4 @@ for index in range(len(input_data_lst[0])):
     else:
         total += (int(input_data_lst[0][index]) * int(input_data_lst[1][index]) * int(input_data_lst[2][index]) * int(input_data_lst[3][index]))
 print(total)
+input_data.close()
