@@ -38,3 +38,4 @@ for key in list(PointsDistanceDict.keys()):
         MultiplyX = input_data_lst[key[0]][0]*input_data_lst[key[1]][0]
         break
 print(MultiplyX)
+input_data.close()

@@ -37,3 +37,4 @@ LargestThreeCircuits = 1
 for x in Circuits[:3]:
     LargestThreeCircuits*= len(x)
 print(LargestThreeCircuits)
+input_data.close()
