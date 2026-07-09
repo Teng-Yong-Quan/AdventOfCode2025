@@ -18,4 +18,5 @@ for row in range(len(input_data_lst)):
                        PaperRollLocation.append((neighbourRow,neighbourCol))
             if len(PaperRollLocation) < 4:
                 totalCount += 1
-print(totalCount) 
+print(totalCount)
+input_data.close()

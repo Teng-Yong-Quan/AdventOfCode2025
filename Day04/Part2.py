@@ -28,4 +28,5 @@ while PreviousTotalCount != totalCount:
         ReplacedCol = rowcol[1]
         CurrentString = input_data_lst[ReplacedRow]
         input_data_lst[ReplacedRow] = CurrentString[:ReplacedCol] + 'X' + CurrentString[ReplacedCol + 1:]
-print(totalCount)  
+print(totalCount)
+input_data.close()
