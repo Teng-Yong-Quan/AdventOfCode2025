@@ -29,3 +29,4 @@ for EachFinalisedRange in FinalisedIngredientRangeList:
     FinalisedEnd = EachFinalisedRange[1]
     FreshIngredientCount += (FinalisedEnd - FinalisedStart + 1)
 print(FreshIngredientCount)
+input_data.close()

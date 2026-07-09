@@ -14,3 +14,4 @@ for line in input_data_lst:
     elif "-" in line:
         FreshIngredientRangeList.append(line)
 print(FreshIngredientCount)
+input_data.close()
