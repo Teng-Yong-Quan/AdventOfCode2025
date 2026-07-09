@@ -13,3 +13,4 @@ while CurrentIndex < len(input_data_lst) - 1:
     CurrentIndex += 1
 PointsAreaDict = dict(sorted(PointsAreaDict.items(), key=lambda item: item[1], reverse = True)) 
 print(list(PointsAreaDict.values())[0])
+input_data.close()
