@@ -36,3 +36,4 @@ for bank in input_data_lst:
     LargestValue = int(LargestValueString)
     LargestJoltage += LargestValue 
 print(LargestJoltage)
+input_data.close()

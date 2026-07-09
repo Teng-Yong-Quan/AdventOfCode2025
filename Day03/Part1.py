@@ -30,3 +30,4 @@ for bank in input_data_lst:
                     IsFound = True
     LargestJoltage += LargestValue 
 print(LargestJoltage)
+input_data.close()
