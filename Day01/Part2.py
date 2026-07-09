@@ -20,3 +20,4 @@ for rotation in input_data_lst:
                 ZeroCount += 1
                 CurrentValue = 0
 print(ZeroCount)
+input_data.close()
