@@ -22,3 +22,4 @@ for row in range(1, len(input_data_lst)):
                     TempFullBeamIndexes.remove(beamIndex)
     FullBeamIndexes = TempFullBeamIndexes.copy()
 print(SplitCount)
+input_data.close()

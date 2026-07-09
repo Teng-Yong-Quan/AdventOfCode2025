@@ -28,3 +28,4 @@ total = 0
 for key in FullBeamDict.keys():
     total += FullBeamDict[key][0]
 print(total)
+input_data.close()
